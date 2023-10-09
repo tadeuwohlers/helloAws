@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "Hellokaws",
-            "image": "912656312251.dkr.ecr.us-east-1.amazonaws.com/helloaws:9c00073dae152c82a871629ee64dbbccc996a205",
+            "image": "912656312251.dkr.ecr.us-east-1.amazonaws.com/helloaws:latest",
             "cpu": 0,
             "links": [],
             "portMappings": [
