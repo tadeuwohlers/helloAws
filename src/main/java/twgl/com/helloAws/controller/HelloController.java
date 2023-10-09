@@ -11,7 +11,7 @@ public class HelloController {
     @GetMapping
     public String hello() {
         //log this call to the console
-        System.out.println("GET called on /api/v1/hello end-point");
-        return "Hello World";
+        System.out.println("GET called on /api/v1/hello end-point updated");
+        return "Hello New World";
     }
 }
