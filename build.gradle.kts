@@ -22,6 +22,9 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("mysql:mysql-connector-java:8.0.32")
+	implementation("org.modelmapper:modelmapper:3.0.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
