@@ -91,5 +91,10 @@
     },
     "registeredAt": "2023-10-09T01:41:09.289Z",
     "registeredBy": "arn:aws:sts::912656312251:assumed-role/cdk-hnb659fds-cfn-exec-role-912656312251-us-east-1/AWSCloudFormation",
-    "tags": []
+    "tags": [],
+    "environment": [
+        {
+         "name": "spring.profiles.active",
+         "value": "prod"
+       }]
 }
