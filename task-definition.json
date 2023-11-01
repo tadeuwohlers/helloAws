@@ -16,7 +16,6 @@
             "essential": true,
             "entryPoint": [],
             "command": [],
-            "environment": [],
             "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
@@ -36,7 +35,12 @@
                 },
                 "secretOptions": []
             },
-            "systemControls": []
+            "systemControls": [],
+            "environment": [
+                {
+                 "name": "spring.profiles.active",
+                 "value": "prod"
+               }]
         }
     ],
     "family": "ServiceHellokawsALB01TaskDef56125024",
@@ -91,10 +95,5 @@
     },
     "registeredAt": "2023-10-09T01:41:09.289Z",
     "registeredBy": "arn:aws:sts::912656312251:assumed-role/cdk-hnb659fds-cfn-exec-role-912656312251-us-east-1/AWSCloudFormation",
-    "tags": [],
-    "environment": [
-        {
-         "name": "spring.profiles.active",
-         "value": "prod"
-       }]
+    "tags": []
 }
