@@ -12,6 +12,6 @@ public class HelloController {
     public String hello() {
         //log this call to the console
         System.out.println("GET called on /api/v1/hello end-point updated");
-        return "Hello New World";
+        return "Hello Caião";
     }
 }
