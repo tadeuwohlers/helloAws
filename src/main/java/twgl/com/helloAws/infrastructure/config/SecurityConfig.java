@@ -60,7 +60,8 @@ public class SecurityConfig {
                                         "/auth/refresh/**",
                                         "/swagger-ui/**",
                                         "/v3/api-docs/**",
-                                        "/api/v1/hello/**"
+                                        "/api/v1/hello/**",
+                                        "/actuator/**"
                                 ).permitAll()
                                 .requestMatchers("/api/**").authenticated()
                                 .requestMatchers("/users").denyAll()
