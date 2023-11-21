@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import twgl.com.helloAws.domain.dtos.person.CreatePersonDTO;
 import twgl.com.helloAws.domain.dtos.person.CreatedPersonDTO;
 import twgl.com.helloAws.domain.entities.Person;
-import twgl.com.helloAws.domain.services.PersonService;
+import twgl.com.helloAws.domain.services.PersonServices;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class PersonController {
  
     @Autowired
-    PersonService service;
+    PersonServices service;
 
     @GetMapping
     public List<Person> hello() {

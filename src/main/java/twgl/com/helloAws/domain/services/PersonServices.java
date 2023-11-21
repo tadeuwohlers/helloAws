@@ -14,7 +14,7 @@ import twgl.com.helloAws.domain.entities.Person;
 import twgl.com.helloAws.domain.repositories.IPersonRepository;
 
 @Service
-public class PersonService {
+public class PersonServices {
     
     @Autowired
     IPersonRepository repository;

@@ -23,10 +23,13 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.flywaydb:flyway-core")
 	implementation("org.flywaydb:flyway-mysql")
 	implementation("mysql:mysql-connector-java:8.0.32")
 	implementation("org.modelmapper:modelmapper:3.0.0")
+	implementation("io.jsonwebtoken:jjwt:0.9.1")
+	implementation("com.auth0:java-jwt:3.18.2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
