@@ -48,7 +48,7 @@ public class JwtTokenProvider {
         String accessToken = getAccessToken(username, roles, now, validity);
         String refreshToken = getRefreshToken(username, roles, now);
 
-        return new TokenDTO(username, null, null, null, username, username);
+        return new TokenDTO(username, true, now, validity, accessToken, refreshToken);
     }
 
     private String getAccessToken(String username, List<String> roles, Date now, Date validity) {
